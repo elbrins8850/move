@@ -1,17 +1,17 @@
 {
 
-  "homepage": "https://elbrins8850.github.io/movie",
+  "homepage": "https://elbrins8850.github.io/Move",
   "name": "movie-db",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.2",
